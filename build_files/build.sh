@@ -11,8 +11,8 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 -y copr enable manciukic/libfprint-tod-goodix
-dnf5 -y remove libfprint --install=libfprint-tod-goodix
-dnf5 -y install fprintd fprintd-pam
+dnf5 -y remove libfprint
+dnf5 -y install libfprint-tod-goodix fprintd fprintd-pam
 dnf5 -y copr disable manciukic/libfprint-tod-goodix
 
 # Use a COPR Example:
