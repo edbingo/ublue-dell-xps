@@ -15,6 +15,8 @@ dnf5 -y remove libfprint
 dnf5 -y install libfprint-tod-goodix fprintd fprintd-pam
 dnf5 -y copr disable manciukic/libfprint-tod-goodix
 
+dnf5 -y copr enable trixieua/morewaita-icon-theme && dnf5 -y install morewaita-icon-theme && dnf5 -y copr disable trixieua/morewaita-icon-theme
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
