@@ -19,6 +19,8 @@ dnf5 -y copr enable quadratech188/vicinae
 dnf5 -y install vicinae
 dnf5 -y copr disable quadratech188/vicinae
 
+dnf5 -y install niri
+
 dnf5 -y copr enable trixieua/morewaita-icon-theme && dnf5 -y install morewaita-icon-theme && dnf5 -y copr disable trixieua/morewaita-icon-theme
 
 # Use a COPR Example:
