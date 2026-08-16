@@ -15,6 +15,10 @@ dnf5 -y copr enable manciukic/libfprint-tod-goodix
 dnf5 -y install libfprint-tod-goodix fprintd fprintd-pam
 dnf5 -y copr disable manciukic/libfprint-tod-goodix
 
+dnf5 -y copr enable yannmasoch/nautilus-my-computer
+dnf5 -y install nautilus-my-computer
+dnf5 -y copr disable yannmasoch/nautilus-my-computer
+
 dnf5 -y copr enable scottames/ghostty
 dnf5 -y install ghostty
 dnf5 -y copr remove scottames/ghostty
